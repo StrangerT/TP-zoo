@@ -1,0 +1,26 @@
+package Animal;
+
+public class Cephalopd extends Mollusc{
+	private int nbMember;
+	public Cephalopd() {
+		super();
+	}
+	
+	public Cephalopd(int nm) {
+		this();
+		this.nbMember = nm;
+	}
+
+	public int getNbMember() {
+		return nbMember;
+	}
+
+	public void setNbMember(int nbMember) {
+		this.nbMember = nbMember;
+	}
+	
+	public void sneak() {
+		
+	}
+
+}

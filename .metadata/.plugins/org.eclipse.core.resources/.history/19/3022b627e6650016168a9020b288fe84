@@ -1,0 +1,17 @@
+package com.ib.zoo.entity;
+
+public class Cleaner extends Personnel{
+	
+	private int nbMax;
+	
+	public Cleaner(){
+		
+	}
+	
+	public Cleaner(String fname, String lname){
+		super(fname, lname);
+		this.salary = 15600;
+		this.nbMax = 5;
+	}
+
+}

@@ -1,0 +1,53 @@
+package com.ib.zoo.entity;
+
+public class Healer extends Personnel{
+	
+	private int cureChance;
+	private int nbCuredMonthly;
+	
+	public Healer(){
+		
+	}
+	
+	public Healer(String fname, String lname){
+		super(fname, lname);
+		this.salary = 21600;
+		this.cureChance = 20;
+		this.nbCuredMonthly = 0;
+		this.seniority = 0;
+	}
+	
+	
+	public int getCureChance() {
+		if (this.getSeniority() > 10) {
+			this.cureChance = 70;
+		} else {
+			this.cureChance = 20 + this.getSeniority() * 5;
+		}
+		return cureChance;
+	}
+	
+	public void setCureChance(int cureChance) {
+		this.cureChance = cureChance;
+	}
+	
+	public int getNbCuredMonthly() {
+		return nbCuredMonthly;
+	}
+	
+	public void setNbCuredMonthly(int nbCuredMonthly) {
+		this.nbCuredMonthly = nbCuredMonthly;
+	}
+	
+	public void heal(Animal animal){
+		
+	}
+	
+	@Override
+	public double getBonus() {
+		// TODO Auto-generated method stub
+		this.bonus = this.salary * this.seniority / 100 + this.nbCuredMonthly * 1200;
+		return this.bonus;
+	}
+
+}

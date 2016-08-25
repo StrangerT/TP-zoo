@@ -1,0 +1,39 @@
+
+public class Scooter implements IVehicul{
+	private int nbWheel;
+	private String color;
+	private int speed;
+	private static int count = 0;
+	
+	public Scooter (){
+		this.nbWheel = 2;
+		count ++;
+	}
+	
+	public Scooter (String clr){
+		this();
+		this.color = clr;
+	}
+
+	public void accelerate(){
+		this.speed += 10;
+	}
+	
+	public void deccelerate(){
+		this.speed -= 10;
+	}
+	
+	public boolean ifStop(){
+		if (this.speed == 0) {
+			return true;
+		}
+		return false;
+	}
+	
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		System.out.println("eh");
+	}
+
+}

@@ -1,0 +1,12 @@
+import computer.Computer;
+
+public class Windows extends Computer{
+
+	public Windows(){
+		
+	}
+	
+	public void bug(){
+		System.out.println("Je peut boguer !");
+	}
+}

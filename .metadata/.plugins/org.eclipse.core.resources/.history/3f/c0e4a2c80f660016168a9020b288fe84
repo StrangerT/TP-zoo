@@ -1,0 +1,24 @@
+package com.ib.zoo.entity;
+
+import java.util.Random;
+
+public class Animal {
+	protected Sex sex;
+	protected Rarity rarity;
+	protected int ageMax;
+	protected int age;
+	protected int beginGestation;
+	protected int endGestation;
+	protected int gestationDuration;
+	protected int sickChance;
+	protected int deathChance;
+	protected double price;
+	protected boolean ifSick;
+	protected boolean ifCleaned;
+	
+	public Animal() {
+		Random s = new Random();
+		
+	}
+
+}

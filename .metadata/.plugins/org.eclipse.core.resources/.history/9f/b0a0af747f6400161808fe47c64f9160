@@ -1,0 +1,48 @@
+
+public class Launch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Person p = new Person();
+		System.out.println(p.getSex() + " " + p.getNumberSecu());
+		
+		Person q = new Person("Nike");
+		System.out.println(q.getFirstName() + " " + q.getNumberSecu());
+		
+		Person r = new Person("White", "Walter");
+		System.out.println(r.getLastName() + " " + r.getNumberSecu());
+		System.out.println(p.getSex() + " " + p.getNumberSecu());
+		System.out.println(Person.getCount());*/
+		
+		
+//		Car b = new Car("bleu", 4);
+//		b.setColor("blue");
+//		b.setWheelNb(4);
+//		System.out.println(b.getColor());
+//		b.move();
+//		
+//		Car r = new Car();
+//		r.setColor("red");
+//		r.setWheelNb(6);
+//		System.out.println(r.getWheelNb());
+//		
+//		//System.out.println(Car.getCount());
+//		
+//		System.out.println(b.getCount());
+//		
+//		House myHouse = new House(5, "Ardoise", 10);
+//		myHouse.controlDigicode(1234);
+		
+		//Mammal m = new Mammal();
+		
+		Scooter s = new Scooter("black");
+		Person joe = new Person();
+		joe.setMyScooter(s);
+		joe.getMyScooter().accelerate();
+		s.drive();
+		s.deccelerate();
+		s.stop();
+	}
+
+}

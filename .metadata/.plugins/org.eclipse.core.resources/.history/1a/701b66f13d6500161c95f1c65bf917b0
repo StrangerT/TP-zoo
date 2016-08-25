@@ -1,0 +1,14 @@
+package Animal;
+
+public class Animal {
+	protected boolean collagen;
+	
+	public Animal(){
+		this.collagen = true;
+	}
+	
+	public void breath(){
+		
+	}
+
+}

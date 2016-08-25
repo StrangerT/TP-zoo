@@ -1,0 +1,13 @@
+package com.ib.zoo.entity;
+
+import java.util.ArrayList;
+
+public class Zoo {
+	private Account account;
+	private ArrayList<Animal> animals;
+	private ArrayList<Personnel> personnels;
+	private double monthlyIncome;
+	private double monthlyOutgo;
+	
+
+}

@@ -1,0 +1,6 @@
+
+public class Castle extends House{
+	
+	private boolean drawbridge;
+
+}

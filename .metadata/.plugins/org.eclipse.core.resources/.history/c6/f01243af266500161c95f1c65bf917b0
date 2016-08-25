@@ -1,0 +1,14 @@
+
+public class Computer {
+
+	protected String keyboard;
+	
+	public Computer(){
+		
+	}
+	
+	public void sayHello(){
+		System.out.println("Je suis un ordinateur.");
+	}
+	
+}

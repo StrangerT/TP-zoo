@@ -1,0 +1,15 @@
+package Animal;
+
+public class Mollusc extends Animal{
+	protected boolean radula;
+	
+	public Mollusc() {
+		super();
+		this.radula = true;
+	}
+	
+	public void createLimestone(){
+		
+	}
+
+}

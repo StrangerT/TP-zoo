@@ -1,0 +1,9 @@
+
+public class Computer {
+
+	protected String keyboard;
+	
+	public Computer(){
+		
+	}
+}

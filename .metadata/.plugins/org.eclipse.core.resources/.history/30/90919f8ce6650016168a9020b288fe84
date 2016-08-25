@@ -1,0 +1,32 @@
+package com.ib.zoo.entity;
+
+public class Cleaner extends Personnel{
+	
+	private int nbMax;
+	
+	public Cleaner(){
+		
+	}
+	
+	public Cleaner(String fname, String lname){
+		super(fname, lname);
+		this.salary = 15600;
+		this.nbMax = 5;
+	}
+
+	public int getNbMax() {		
+		if (this.getSeniority() > 10) {
+			this.nbMax = 15;
+		}else {
+			this.nbMax += this.getSeniority();
+		}
+		return nbMax;
+	}
+
+	public void setNbMax(int nbMax) {
+		this.nbMax = nbMax;
+	}
+	
+	
+
+}

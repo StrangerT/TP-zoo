@@ -1,0 +1,33 @@
+package com.ib.zoo.entity;
+
+public class Account {
+	private double balance;
+	
+	public Account(){
+		this.balance = 30000;
+	
+	}
+	
+	public double debitBalance(double amount){
+		this.balance -= amount;
+		return this.balance;
+	}
+	
+	public double creditBalance(double amount){
+		this.balance += amount;
+		return this.balance;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		System.out.println("Le solde est de " + this.balance);
+		return super.toString();
+	}
+	
+
+}
