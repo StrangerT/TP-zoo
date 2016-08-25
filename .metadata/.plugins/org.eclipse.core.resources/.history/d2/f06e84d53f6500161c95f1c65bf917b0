@@ -1,0 +1,29 @@
+package Animal;
+
+public class Gasteropod extends Mollusc{
+	private String shellShape;
+	public Gasteropod() {
+		super();
+	}
+	
+	public Gasteropod(String ss) {
+		this();
+		this.shellShape = ss;
+	}
+	
+	
+
+	public String getShellShape() {
+		return shellShape;
+	}
+
+	public void setShellShape(String shellShape) {
+		this.shellShape = shellShape;
+	}
+
+	public void crawl() {
+		
+	}
+	
+
+}

@@ -1,0 +1,7 @@
+package com.ib.zoo.entity;
+
+public class Zoo {
+	private Account account;
+	
+
+}

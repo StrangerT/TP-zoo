@@ -1,0 +1,42 @@
+package com.ib.zoo.entity;
+
+public class Personnel {
+	
+	protected String firstname;
+	protected String lastname;
+	protected double salary;
+	protected int seniority;
+	
+	public Personnel(String fname, String lname, double salary, int seniority){
+		this.firstname = fname;
+		this.lastname = lname;
+		this.salary = salary;
+		this.seniority = seniority;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public void setSeniority(int seniority) {
+		this.seniority = seniority;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public int getSeniority() {
+		return seniority;
+	}
+
+	
+}

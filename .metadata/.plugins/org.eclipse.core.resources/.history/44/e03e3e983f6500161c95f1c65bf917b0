@@ -1,0 +1,27 @@
+package Animal;
+
+public class Cetacean extends Mammal{
+	private int fin;
+	
+	public Cetacean() {
+		super();
+	}
+	
+	public Cetacean(int f) {
+		this();
+		this.fin = f;
+	}
+	
+	public int getFin() {
+		return fin;
+	}
+
+	public void setFin(int fin) {
+		this.fin = fin;
+	}
+
+	public void liveInWater() {
+		
+	}
+
+}

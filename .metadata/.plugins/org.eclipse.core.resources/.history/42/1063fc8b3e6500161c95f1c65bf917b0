@@ -1,0 +1,16 @@
+package Animal;
+
+public class Mammal extends Animal{
+	
+	protected boolean keratin;
+	
+	public Mammal() {
+		super();
+		this.keratin = true;
+	}
+	
+	public void breastFeeding(){
+		
+	}
+
+}
